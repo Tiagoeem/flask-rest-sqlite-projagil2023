@@ -1,3 +1,7 @@
+# Exercício de Web Services REST com Flask e SQLite
+
+Neste exercício, você aprimorará a aplicação web da biblioteca que foi desenvolvida anteriormente, agora incorporando os princípios REST até o Nível 2 do Modelo de Maturidade de Richardson. A aplicação deve continuar gerenciando livros e usuários, mas agora com uma abordagem mais padronizada e alinhada com as práticas RESTful. Além disso, você preparará seu projeto para um possível deploy no Heroku.
+
 ## Requisitos:
 
 1. **Estrutura de Pastas**:
@@ -40,3 +44,4 @@
 - Ao refatorar sua aplicação para adotar os princípios REST, você estará operando no Nível 2 do Modelo de Maturidade de Richardson.
 - Lembre-se de que, no Nível 2, é importante não apenas usar verbos HTTP, mas também garantir que os códigos de status HTTP sejam usados corretamente.
 - Dê atenção especial à organização dos seus endpoints, garantindo que eles estejam alinhados com os princípios RESTful.
+- O uso do arquivo `db_utils.py` continua opcional nesta atividade.
